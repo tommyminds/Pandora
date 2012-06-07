@@ -1,4 +1,5 @@
 Ext.application({
+    models: ["Song", "Station"],
     name: 'Pandora',
 
     requires: [
