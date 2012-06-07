@@ -5,12 +5,7 @@ Ext.define('Pandora.view.RecentlyPlayed', {
     config: {
         inline: true,
         cls: 'coverview',
-        store: {
-            data: [
-                {name: 'Won\'t Get Fooled Again', image: 'who.jpg'},
-                {name: 'Stairway from Heaven', image: 'ledzeppelin.jpg'}
-            ]
-        },
+        store: 'RecentlyPlayed',
         itemTpl: '<img src="resources/images/covers/{image}"/>',
         scrollable: {
             direction: 'horizontal'

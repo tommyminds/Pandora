@@ -1,6 +1,6 @@
 Ext.application({
     models: ["Song", "Station"],
-    controllers: ["Station"],
+    controllers: ["Station", "Song"],
 
     name: 'Pandora',
 

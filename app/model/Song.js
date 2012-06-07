@@ -9,14 +9,6 @@ Ext.define('Pandora.model.Song', {
             {name: 'album', type: 'string'},
             {name: 'image', type: 'string'},
             {name: 'station', type: 'int'}
-        ],
-        proxy: {
-            type: 'ajax',
-            url: 'data/recentsongs.json',
-            reader: {
-                type: 'json',
-                rootProperty: 'results'
-            }
-        }
+        ]
     }
 });

@@ -8,7 +8,7 @@
             'description': 'Description for Stevie',
             'played_date': '1',
             'station': 1,
-            'image': 'stevierayvaughan.jpg'
+            'image': 'steviewrayvaughan.jpg'
         },
         {
             'name': 'Sunshine Of Your Love (Live)',
@@ -16,7 +16,7 @@
             'album': 'Cream: Gold',
             'description': 'Description for Cream',
             'played_date': '2',
-            'station': 1
+            'station': 1,
             'image': 'cream.jpg'
         },
         {
@@ -25,7 +25,7 @@
             'album': 'The Rise And Fall Of Ziggy Stardust (Remastered)',
             'description': 'Description for David',
             'played_date': '3',
-            'station': 1
+            'station': 1,
             'image': 'davidbowie.jpg'
         },
         {
@@ -34,7 +34,7 @@
             'album': 'Full Moon Fever',
             'description': 'Description for Tom',
             'played_date': '4',
-            'station': 1
+            'station': 1,
             'image': 'tompetty.jpg'
         },
         {
@@ -43,7 +43,7 @@
             'album': 'Blues',
             'description': 'Description for Jimi',
             'played_date': '5',
-            'station': 1
+            'station': 1,
             'image': 'jimihendrix.jpg'
         },
         {
@@ -52,7 +52,7 @@
             'album': 'Singles Collection: The London Years',
             'description': 'Description for the Stones',
             'played_date': '6',
-            'station': 1
+            'station': 1,
             'image': 'rollingstones.jpg'
         },
         {
@@ -61,7 +61,7 @@
             'artist': 'The Rolling Stones',
             'description': 'Description for the Stones',
             'played_date': 7,
-            'station': 2
+            'station': 2,
             'image': 'rollingstonescircus.jpg'
         },
         {
@@ -70,7 +70,7 @@
             'artist': 'Three Dog Night',
             'description': 'Description for the Dogs',
             'played_date': 8,
-            'station': 2
+            'station': 2,
             'image': 'threedognight.jpg'
         },
         {
@@ -79,7 +79,7 @@
             'artist': 'Daft Punk',
             'description': 'Description for Daft Punk',
             'played_date': 9,
-            'station': 3
+            'station': 3,
             'image': 'daftpunk.jpg'
         },
         {
@@ -88,7 +88,7 @@
             'artist': 'Deadmau5',
             'description': 'Description for Deadmau5',
             'played_date': 10,
-            'station': 3
+            'station': 3,
             'image': 'deadmau5.jpg'
         }
     ]
