@@ -5,15 +5,7 @@ Ext.define('Pandora.view.StationsList', {
     config: {
         cls: 'stations-list',
         grouped: true,
-        store: {
-            data: [
-                {name: 'Black Star'},
-                {name: 'Led Zeppelin'}
-            ],
-            grouper: function(record) {
-                return record.get('name')[0];
-            }
-        },
+        store: 'Stations',
         itemTpl: '{name}',
         items: [
             {
