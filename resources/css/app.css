@@ -9453,3 +9453,14 @@ input[type="search"]::-webkit-search-cancel-button {
   color: white;
   margin-right: 10px;
 }
+
+/* line 33, ../sass/app.scss */
+.coverview {
+  height: 220px;
+}
+/* line 37, ../sass/app.scss */
+.coverview .x-dataview-item img {
+  margin: 10px 0 10px 10px;
+  width: 200px;
+  height: 200px;
+}
