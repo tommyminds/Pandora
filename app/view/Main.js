@@ -3,14 +3,17 @@ Ext.define('Pandora.view.Main', {
 
     requires: [
         'Pandora.view.StationsList',
-        'Pandora.view.SongControls'
+        'Pandora.view.SongControls',
+        'Pandora.view.SongInfo',
+        'Pandora.view.RecentlyPlayed'
     ],
 
     config: {
+        layout: 'fit',
         items: [{
+            cls: 'top-bar',
             docked: 'top',
             xtype: 'toolbar',
-            height: 90,
             items: [
                 {
                     xtype: 'selectfield',
@@ -31,28 +34,16 @@ Ext.define('Pandora.view.Main', {
             ]
         }, {
             xtype: 'stationslist',
-            docked: 'left',
-            width: 250
+            docked: 'left'
         }, {
             xtype: 'container',
             layout: 'fit',
             items: [{
-                xtype: 'dataview',
-                inline: true,
-                docked: 'top',
-                cls: 'coverview',
-                store: {
-                    data: [
-                        {name: 'Won\'t Get Fooled Again', image: 'who.jpg'},
-                        {name: 'Stairway from Heaven', image: 'ledzeppelin.jpg'}
-                    ]
-                },
-                itemTpl: '<img src="resources/images/covers/{image}"/>',
-                scrollable: {
-                    direction: 'horizontal'
-                }
+                xtype: 'recentlyplayed',
+                docked: 'top'
             }, {
-                html: 'song info'
+                xtype: 'songinfo',
+                scrollable: true
             }]
         }]
     }

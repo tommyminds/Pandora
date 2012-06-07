@@ -3,6 +3,7 @@ Ext.define('Pandora.view.StationsList', {
     xtype: 'stationslist',
 
     config: {
+        cls: 'stations-list',
         grouped: true,
         store: {
             data: [
@@ -17,7 +18,7 @@ Ext.define('Pandora.view.StationsList', {
         items: [
             {
                 docked: 'top',
-                xtype: 'titlebar',
+                xtype: 'toolbar',
                 title: 'Stations',
                 ui: 'light'
             },

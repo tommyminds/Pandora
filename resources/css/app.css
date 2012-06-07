@@ -9447,18 +9447,27 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 /* line 26, ../sass/app.scss */
-.app-logo {
+.top-bar {
+  height: 90px;
+}
+/* line 29, ../sass/app.scss */
+.top-bar .app-logo {
   background: url(http://docs.sencha.com/touch/2-0/resources/images/logo.png) no-repeat;
   padding-left: 25px;
   color: white;
   margin-right: 10px;
 }
 
-/* line 33, ../sass/app.scss */
+/* line 37, ../sass/app.scss */
+.stations-list {
+  width: 250px;
+}
+
+/* line 41, ../sass/app.scss */
 .coverview {
   height: 220px;
 }
-/* line 37, ../sass/app.scss */
+/* line 45, ../sass/app.scss */
 .coverview .x-dataview-item img {
   margin: 10px 0 10px 10px;
   width: 200px;

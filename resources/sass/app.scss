@@ -23,11 +23,19 @@
 @include pictos-iconmask('pause');
 @include pictos-iconmask('play1');
 
-.app-logo {
-    background: url(http://docs.sencha.com/touch/2-0/resources/images/logo.png) no-repeat;
-    padding-left: 25px;
-    color: white;
-    margin-right: 10px;
+.top-bar {
+    height: 90px;
+
+    .app-logo {
+        background: url(http://docs.sencha.com/touch/2-0/resources/images/logo.png) no-repeat;
+        padding-left: 25px;
+        color: white;
+        margin-right: 10px;
+    }
+}
+
+.stations-list {
+    width: 250px;
 }
 
 .coverview {
