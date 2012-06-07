@@ -29,3 +29,15 @@
     color: white;
     margin-right: 10px;
 }
+
+.coverview {
+    height: 220px;
+
+    .x-dataview-item {
+        img {
+            margin: 10px 0 10px 10px;
+            width: 200px;
+            height: 200px;
+        }
+    }
+}

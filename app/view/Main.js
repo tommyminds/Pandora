@@ -34,7 +34,26 @@ Ext.define('Pandora.view.Main', {
             docked: 'left',
             width: 250
         }, {
-            html: 'Center area takes up the rest of the space'
+            xtype: 'container',
+            layout: 'fit',
+            items: [{
+                xtype: 'dataview',
+                inline: true,
+                docked: 'top',
+                cls: 'coverview',
+                store: {
+                    data: [
+                        {name: 'Won\'t Get Fooled Again', image: 'who.jpg'},
+                        {name: 'Stairway from Heaven', image: 'ledzeppelin.jpg'}
+                    ]
+                },
+                itemTpl: '<img src="resources/images/covers/{image}"/>',
+                scrollable: {
+                    direction: 'horizontal'
+                }
+            }, {
+                html: 'song info'
+            }]
         }]
     }
 });
